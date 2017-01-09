@@ -132,12 +132,15 @@ import { Animated } from 'react-flip';
 
 #### Props
 - `id`: string (required)
+
   An id for tracking this specific animated component. It must be unique from all other ids of `<Animated>`s currently being rendered. If you happen to use two of the same id, there will be no warning (currently), and the animation won't occur.
 
 - `index`: number (optional)
+
   The index of this item, if this item was rendered in a collection. You **must** supply this prop when rendering collections of `<Animated>`s that you wish to reanimate when reordered. (If you for some reason don't want that, don't supply the prop).
 
 - `children`: ReactElement | ManualRenderFunction (required)
+
   What will be rendered.
 
   - If ReactElement: the element will be wrapped in a `<div>`, and that div will receive ```style={{ transform: `translate(${translateX}px, ${translateY}px)` }}``` to perform the animation. If you want to avoid the extra div and apply the transformation directly to your component, use a ManualRenderFunction instead.
@@ -145,12 +148,15 @@ import { Animated } from 'react-flip';
   - If ManualRenderFunction: this function will be called with the signature `(getRef: (node) => void, AnimationData { translateX: number, translateY: number, progress: number, isAnimating: boolean }) => ReactElement`. This will be called every frame with updated (tweened) animation data. You **must** supply `getRef` to the root element of your component as a ref callback so that its position can be measured, and you **must** apply the transformation yourself. `progress` is a number from 0 to (over) 100 (it may go over 100 if the animation overshoots the target. ie. `animation === 100` does not mean the animation has finished).
 
 - `spring`: SpringConfig (optional)
+
   This is a react-motion [spring config](https://github.com/chenglou/react-motion#--spring-val-number-config-springhelperconfig--opaqueconfig), which has the shape `{ stiffness: number (optional), damping: number (optional), precision: (optional) }`, you can use this to configure the physics of the animation.
 
 - `transitionBegan`: function (optional)
+
   A callback which is triggered when the transition animation has begun.
 
 - `transitionFinished`: function (optional)
+
   A callback which is triggered when the transition animation has come to a full stop.
 
 ## Run the demos
