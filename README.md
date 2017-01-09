@@ -149,7 +149,7 @@ import { Animated } from 'react-flip';
 
 - `spring`: SpringConfig (optional)
 
-  This is a react-motion [spring config](https://github.com/chenglou/react-motion#--spring-val-number-config-springhelperconfig--opaqueconfig), which has the shape `{ stiffness: number (optional), damping: number (optional), precision: (optional) }`, you can use this to configure the physics of the animation.
+  This is a react-motion [spring config](https://github.com/chenglou/react-motion#--spring-val-number-config-springhelperconfig--opaqueconfig), which has the shape `{ stiffness: number (optional), damping: number (optional), precision: number (optional) }`, you can use this to configure the physics of the animation.
 
 - `transitionBegan`: function (optional)
 
