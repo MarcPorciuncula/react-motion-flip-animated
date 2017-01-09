@@ -44,13 +44,13 @@ import { Animated } from 'react-flip';
 `react-flip` exports a single component `Animated`.
 
 ### Make something move from here to there
-1. Wrap it inside an `Animated` with a unique id.
+- Wrap it inside an `Animated` with a unique id.
 ```js
 <Animated id="animated-thingy">
   <MyCoolComponent />
 </Animated>
 ```
-2. Render it somewhere "before"
+- Render it somewhere "before"
 ```js
 <div className="somewhere">
   <Animated id="animated-thingy">
@@ -58,7 +58,7 @@ import { Animated } from 'react-flip';
   </Animated>
 </div>
 ```
-3. Cause it to render elsewhere "after" (due to a state/props/context change).
+- Cause it to render elsewhere "after" (due to a state/props/context change).
 ```js
 <div className="somewhere">
   null
@@ -73,7 +73,7 @@ import { Animated } from 'react-flip';
 
 ### You can also make things swap positions:
 
-1. Render the before.
+- Render the before.
 ```js
 <div className="somewhere">
   <Animated id="animated-thingy-1">
@@ -86,7 +86,7 @@ import { Animated } from 'react-flip';
   </Animated>
 </div>
 ```
-2. Render the after (with your animateds swapped).
+- Render the after (with your animateds swapped).
 ```js
 <div className="somewhere">
   <Animated id="animated-thingy-2">
@@ -102,7 +102,7 @@ import { Animated } from 'react-flip';
 
 ### And even reorder entire collections:
 
-1. Render (also supplying the `index` prop).
+- Render (also supplying the `index` prop).
 ```js
 <div>
   {this.state.items.map(({ id, ...etc }, i) => (
@@ -112,8 +112,8 @@ import { Animated } from 'react-flip';
   ))}
 </div>
 ```
-2. Reorder the items.
-3. Render again.
+- Reorder the items.
+- Render again.
 
 **Remember**: the `key` prop goes on the root node of any element in an array, however, the `index` prop is for `<Animated>` only. For example:
 ```js
