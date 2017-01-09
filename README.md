@@ -1,7 +1,7 @@
 # react-flip
 Render here, render there, watch it animate, move on.
 
-A one component library that makes it dead simple to make a component animate from here to there, no measuring pixels required.
+A one component library that makes it dead simple to animate anything from here to there, no measuring pixels required.
 
 ```js
 import { Animated } from 'react-flip';
