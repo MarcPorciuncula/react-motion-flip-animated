@@ -1,7 +1,7 @@
 {
   "name": "react-flip",
   "version": "0.0.1",
-  "description": "A simple library for animating components",
+  "description": "A simple library for animating positional transitions",
   "main": "dist/react-flip.js",
   "module": "dist/react-flip.mjs",
   "jsnext:main": "dist/react-flip.mjs",
