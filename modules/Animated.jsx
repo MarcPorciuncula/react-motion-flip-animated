@@ -43,6 +43,10 @@ class Animated extends React.Component {
   }
 
   componentWillUnmount() {
+    // FIXME the rectangle is measured *when react is reconciling*, dom changes may
+    // have taken place since the last full render. What we really need is a way to
+    // measure this when we know the component will not be rendered on the next render,
+    // but before the render is reconciled. Considering a root wrapper that tracks this.
     controller.unmount(this.props.id, this.ref.getBoundingClientRect());
   }
 
