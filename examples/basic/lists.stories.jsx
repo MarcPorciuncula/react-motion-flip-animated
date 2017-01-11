@@ -47,6 +47,7 @@ const listItem = css({
   borderBottom: '1px solid rgb(204, 204, 204)',
   padding: '6px',
   display: 'flex',
+  fontSize: '14px',
 });
 
 const listItemText = css({
