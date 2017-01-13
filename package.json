@@ -18,7 +18,7 @@
     "url": "https://github.com/MarcoThePoro/react-motion-flip-animated"
   },
   "peerDependencies": {
-    "react": "^15.4.2",
+    "react": ">=0.13.2 || ^0.14 || ^15.0.0",
     "react-motion": "^0.4.7"
   },
   "dependencies": {
