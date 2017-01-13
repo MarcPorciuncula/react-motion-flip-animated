@@ -1,6 +1,6 @@
 {
   "name": "react-motion-flip-animated",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A simple library for animating positional transitions",
   "main": "dist/react-motion-flip-animated.js",
   "module": "dist/react-motion-flip-animated.mjs",
