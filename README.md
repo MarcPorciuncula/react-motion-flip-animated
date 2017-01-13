@@ -1,10 +1,10 @@
-# react-flip
+# react-motion-flip-animated
 Render here, render there, watch it animate, move on.
 
 A one component library that makes it dead simple to animate anything from here to there, no measuring pixels required.
 
 ```js
-import { Animated } from 'react-flip';
+import { Animated } from 'react-motion-flip-animated';
 
 // render here
 <div>
@@ -36,12 +36,12 @@ import { Animated } from 'react-flip';
 *gif coming soon :)*
 
 ## Install
-`npm install --save react react-motion react-flip`;
+`npm install --save react react-motion react-motion-flip-animated`;
 
 **Yes** there is a peer dependency on `react-motion` (and obviously `react`);
 
 ## Use it
-`react-flip` exports a single component `Animated`.
+`react-motion-flip-animated` exports a single component `Animated`.
 
 ### Make something move from here to there
 - Wrap it inside an `Animated` with a unique id.
@@ -161,8 +161,8 @@ import { Animated } from 'react-flip';
 
 ## Run the demos
 ```bash
-git clone https://github.com/MarcoThePoro/react-flip.git
-cd react-flip
+git clone https://github.com/MarcoThePoro/react-motion-flip-animated.git
+cd react-motion-flip-animated
 npm install
 npm run storybook
 ```
