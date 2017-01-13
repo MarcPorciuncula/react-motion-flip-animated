@@ -9,7 +9,7 @@ import { Animated } from 'react-motion-flip-animated';
 // render here
 <div>
   <div className="here">
-    <Animated id="I'm unique! :)">
+    <Animated id="animate-me">
       <MyCoolComponent />
     </Animated>
   </div>
@@ -24,7 +24,7 @@ import { Animated } from 'react-motion-flip-animated';
     null
   </div>
   <div className="there">
-    <Animated id="I'm unique! :)">
+    <Animated id="animate-me">
       <MyCoolComponent />
     </Animated>
   </div>
