@@ -9,7 +9,7 @@ import commonjs from 'rollup-plugin-commonjs';
 const configs = [{
   entry: path.resolve(__dirname, '../modules/index.js'),
   format: 'cjs',
-  dest: path.resolve(__dirname, '../dist/react-flip.js'),
+  dest: path.resolve(__dirname, '../dist/react-motion-flip-animated.js'),
   sourceMap: true,
   plugins: [
     resolve({
@@ -31,7 +31,7 @@ const configs = [{
 }, {
   entry: path.resolve(__dirname, '../modules/index.js'),
   format: 'es',
-  dest: path.resolve(__dirname, '../dist/react-flip.mjs'),
+  dest: path.resolve(__dirname, '../dist/react-motion-flip-animated.mjs'),
   sourceMap: true,
   plugins: [
     resolve({

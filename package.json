@@ -1,10 +1,10 @@
 {
-  "name": "react-flip",
+  "name": "react-motion-flip-animated",
   "version": "0.0.1",
   "description": "A simple library for animating positional transitions",
-  "main": "dist/react-flip.js",
-  "module": "dist/react-flip.mjs",
-  "jsnext:main": "dist/react-flip.mjs",
+  "main": "dist/react-motion-flip-animated.js",
+  "module": "dist/react-motion-flip-animated.mjs",
+  "jsnext:main": "dist/react-motion-flip-animated.mjs",
   "scripts": {
     "storybook": "start-storybook -p 9001 -c .storybook",
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -15,7 +15,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/MarcoThePoro/react-flip"
+    "url": "https://github.com/MarcoThePoro/react-motion-flip-animated"
   },
   "peerDependencies": {
     "react": "^15.4.2",
